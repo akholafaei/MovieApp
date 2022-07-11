@@ -46,3 +46,5 @@ class MovieDetailsPage:
     def is_add_favorite_star_button_selected(self):
         return self.driver.find_element(*MovieDetailsPageLocators.add_favorite_star_button).isSelected()
 
+
+    
