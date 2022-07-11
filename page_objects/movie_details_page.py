@@ -46,16 +46,3 @@ class MovieDetailsPage:
     def is_add_favorite_star_button_selected(self):
         return self.driver.find_element(*MovieDetailsPageLocators.add_favorite_star_button).isSelected()
 
-
-
-"""
- element = WebDriverWait(driver, 20).until(EC.visibility_of_element_located(
-    (By.XPATH, "//*[@class='ng-binding ng-scope' and @id='tabla_evolucion']")))
-    
-    
-    
-from selenium.webdriver.support import expected_conditions as EC
-
-wait = WebDriverWait(driver, 10)
-element = wait.until(EC.element_to_be_clickable((By.ID, 'someid')))
-"""
